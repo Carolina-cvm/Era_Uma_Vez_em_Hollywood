@@ -1,0 +1,100 @@
+
+#home{
+    margin-top: 30px;
+    padding-top: 250px;
+    padding-bottom: 90px;
+    background-image: url(../Era\ uma\ vez\ em\ Hollywood/Imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#home h1{
+    font-family: hollywood;
+    color: #F2B01B;
+    text-shadow: 5px 5px 5px #000000;
+    padding-top: 130px;
+    font-size: 80px;
+}
+#home h2{
+    font-weight: bold;
+    color: #F2B01B;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+#home h2 span{
+    background-color:#03323A;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#filme p{
+    color:#021b20;
+}
+#personagens{
+    background-color: #03323A;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#personagens p{
+    color:#F2B01B;
+    font-size: 20px;
+    padding-top: 5px;
+}
+#caso h1{
+    background-color: #03323A;
+}
+#caso h4{
+    color:#03323A;
+    font-size: 25px;
+    font-weight: bold;
+}
+#footer{
+    background-color: #03323A;
+    color: #F2B01B;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#footer h4, h5{
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+/*----OUTROS---------------------------------------------*/
+.text-justify {
+    text-align: justify;
+}
+.pl-50{
+    padding-left: 50px;
+}
+.pr-50{
+    padding-right: 50px;
+}
+.rounded{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn{
+    background-color: #03323A;
+    color:#F2B01B;
+    text-shadow: 2px 2px 2px #000000;
+}
+.btn:hover{
+    background-color: #021b20;
+    color:#F2B01B;
+    text-shadow: 2px 2px 2px #000000;
+}
+.leadtext{
+    color:#021b20;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#title{
+    color:#F2B01B;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+}
+.img-thumbnail{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@font-face {
+    font-family: hollywood;
+    src: url(hollywodFonte.ttf);
+    font-weight: bold;
+}
