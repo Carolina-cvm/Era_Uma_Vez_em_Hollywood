@@ -55,6 +55,11 @@
 #footer h4, h5{
     text-shadow: 1px 1px 1px #000000;
 }
+#footer a{
+    color: #F2B01B;
+    text-shadow: 1px 1px 1px #000000;
+}
+    
 
 
 /*----OUTROS---------------------------------------------*/
