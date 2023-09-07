@@ -47,27 +47,38 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+
 #footer{
     background-color: #03323A;
     color: #F2B01B;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-decoration: none;
+    line-height: 3.5;
 }
-#footer h4, h5{
+#footer p{
+    font-size: 20px;
+}
+#footer h2{
+    font-size: 22px;
+    text-shadow: 1px 1px 1px #000000;
+}
+#footer h4{
+    font-size: 17px;
     text-shadow: 1px 1px 1px #000000;
 }
 #footer a{
     color: #F2B01B;
     text-shadow: 1px 1px 1px #000000;
     text-decoration: none;
+}    
+#social{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-#footer a:hover{
-    text-decoration: underline;
-    color: #F2B01B;
-    text-shadow: 1px 1px 1px #000000;
-}
-    
-    
-    
 
 /*----OUTROS---------------------------------------------*/
 .text-justify {
